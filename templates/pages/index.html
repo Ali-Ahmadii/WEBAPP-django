@@ -29,9 +29,9 @@
                 <div class="col-md-4 mb-3">
                   <label class="sr-only">State</label>
                   <select name="state" class="form-control">
-                    <option selected="true" disabled="disabled">State (All)</option>
+                    <option selected="true" >State (All)</option>
                     {% for key,value in state_choices.items %}
-                      <option value="{{ key }}">{{ value }}</option>
+                    <option value = "{{key}}">{{value}}</option> 
                     {% endfor %}
                   </select>
                 </div>
