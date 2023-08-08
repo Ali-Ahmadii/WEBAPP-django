@@ -141,3 +141,12 @@ MESSAGE_TAGS = {
     messages.INFO: "",
     50: "danger",
 }
+#
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+#Becase of security issues I don't wanna put my gmail in github!
+#so I just write how we send email via django
+
+#EMAIL_HOST_USER = 'your email'
+#EMAIL_HOST_PASSWORD = 'your password'
+#EMAIL_USE_TLS = True
